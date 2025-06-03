@@ -52,7 +52,7 @@ A dynamic and interactive portfolio website built with React, featuring smooth G
 
 ```bash
 # Clone repository
-git clone [your-repo-url]
+git clone https://github.com/its-myaseen/Yaseen-Developments-Portfolio-Site
 
 # Install dependencies
 npm install
