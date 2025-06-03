@@ -62,17 +62,17 @@ const Testimonials = () => {
             }
         })
 
-        gsap.from(scroller.current, {
-            yPercent: 100,
-            opacity: 0,
-            duration: 1,
-            ease: "back.out(1.7)",
-            scrollTrigger: {
-                trigger: scroller.current,
-                start: "top 95%",
-                toggleActions: 'play none none reverse'
-            }
-        })
+        // gsap.from(scroller.current, {
+        //     yPercent: 100,
+        //     opacity: 0,
+        //     duration: 1,
+        //     ease: "back.out(1.7)",
+        //     scrollTrigger: {
+        //         trigger: scroller.current,
+        //         start: "top 95%",
+        //         toggleActions: 'play none none reverse'
+        //     }
+        // })
 
     })
 
