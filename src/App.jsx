@@ -1,5 +1,7 @@
 import React from 'react'
 import './App.css'
+import { Analytics } from '@vercel/analytics/react';
+
 import NavigationBar from './Components/NavigationBar'
 import HeroSection from './Components/HeroSection'
 import Section1 from './Components/Section1'
@@ -27,6 +29,7 @@ function App() {
     <>
       <BrowserRouter>
         <NavigationBar></NavigationBar>
+        <Analytics />
         <ScrolltoTop/>
         <Routes>
           <Route path='/' element={<Home />}></Route>
