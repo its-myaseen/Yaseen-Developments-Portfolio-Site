@@ -20,7 +20,7 @@ const TechCard = (props) => {
           })
       })
   return (
-    <div ref={techStackDiv} className='h-40 sm:h-40 w-100 relative rounded-lg px-3 py-4 z-10 overflow-hidden' style={{ backgroundColor: "#f0f8ff17" }}>
+    <div ref={techStackDiv} className='h-25 sm:h-30 w-100 relative rounded-lg px-3 py-4 z-10 overflow-hidden' style={{ backgroundColor: "#f0f8ff17" }}>
       <div className='flex h-[70%] w-full '>
         <img src={props.data.image} className='h-11'></img>
         <div className='block relative h-full flex-1 pl-3'>
