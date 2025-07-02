@@ -99,7 +99,7 @@ const Footer = () => {
             <div className='flex relative justify-between items-center text-lg text-gray-300 w-40 mt-3'>
              <a href='https://www.instagram.com/dev_yaseen/?__pwa=1' target='_blank'> <i ref={icons} className="icons fa-brands fa-instagram hover:text-white duration-300 cursor-pointer hover:scale-105"></i> </a>
               <i ref={icons} className="icons fa-brands fa-facebook-f hover:text-white duration-300 cursor-pointer hover:scale-105"></i>
-             <a href='www.linkedin.com/in/yaseenthemernstackdeveloper' target='_blank'> <i ref={icons} className="icons fa-brands fa-linkedin-in hover:text-white duration-300 cursor-pointer hover:scale-105"></i></a>
+             <a href='https://www.linkedin.com/in/yaseenthemernstackdeveloper' target='_blank'> <i ref={icons} className="icons fa-brands fa-linkedin-in hover:text-white duration-300 cursor-pointer hover:scale-105"></i> </a>
               <i ref={icons} className="icons fa-brands fa-tiktok hover:text-white duration-300 cursor-pointer hover:scale-105"></i>
              <a href='https://wa.me/923235973947' target='_blank'> <i ref={icons} className="icons fa-brands fa-whatsapp hover:text-white duration-300 cursor-pointer hover:scale-105"></i></a>
             </div>
